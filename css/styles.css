@@ -65,6 +65,7 @@ body {
 }
 .nav-link:is(:hover, :focus) {
   color: var(--light-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link-active {
   position: relative;
@@ -113,6 +114,7 @@ body {
 }
 .nav-contact:hover {
   color: var(--light-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .service {
   background-color: #2f303a;
@@ -245,6 +247,7 @@ body {
 }
 .footer-mail:is(:hover, :focus) {
   color: var(--light-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-mail-portfolio {
   color: rgb(255, 255, 255, 0.6);
@@ -254,9 +257,11 @@ body {
   font-style: normal;
   margin-bottom: 9px;
   letter-spacing: 0.03em;
+  transition: color;
 }
 .footer-mail-portfolio:is(:hover, :focus) {
   color: var(--light-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-tel {
   text-decoration: none;
@@ -266,9 +271,11 @@ body {
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.03em;
+  transition: color;
 }
 .footer-tel:is(:hover, :focus) {
   color: var(--light-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-studio {
   color: white;
@@ -288,6 +295,7 @@ body {
   background-color: #fff;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .secondary-list figcaption {
   font-size: 16px;
@@ -381,6 +389,7 @@ body {
   border-radius: 4px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 2px rgba(0, 0, 0, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container {
   width: 1200px;
@@ -451,6 +460,7 @@ body {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon > li > svg {
   fill: white;
@@ -486,6 +496,7 @@ body {
 .clients-list > li:is(:hover, :focus) {
   fill: var(--light-blue);
   border-color: var(--light-blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list-item:hover {
   fill: var(--light-blue);
@@ -506,6 +517,7 @@ body {
   fill: white;
   background-color: var(--light-blue);
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icons {
   display: flex;
@@ -527,6 +539,7 @@ body {
 
 .team-icons > li:is(:hover, :focus) > svg {
   fill: white;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-container {
   display: flex;
